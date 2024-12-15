@@ -4,9 +4,9 @@ padding-top: 50px;
 }
 
 main {
-   background-color: #E7E2D6;
+   background-color: #ffffff;
    max-width: 700px;    
-   margin: 30px auto;
+   margin: 20px auto;
    border-radius: 10px;
    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
    padding: 20px 0px;
@@ -16,13 +16,13 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
     font-weight: 100;
-    font-size: 40px;
-    color: #1D3D2B;
+    font-size: 48px;
+    color: #407551;
   }
 form {
-    margin: 10px;
+    margin: 20px;
     padding: 30px;
-    background-color:#D5C9BA;
+    background-color:#eeeade;
     border-radius: 10px;
     display: flex;
     margin-bottom: 10px;
@@ -41,7 +41,7 @@ a {
     max-width: 750px;
     margin: 10px auto;
     background-size: cover;
-    padding: 5px 5px;
+    padding: 1px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
