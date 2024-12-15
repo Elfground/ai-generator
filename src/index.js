@@ -1,11 +1,10 @@
 function displayRecipe(response) {
-    let recipeElement = document.querySelector("#recipe");
 
     new Typewriter("#recipe", {
         strings: response.data.answer,
         autoStart: true,
         cursor: "",
-        delay: 30,
+        delay: 10,
       });
 }
 
@@ -17,6 +16,9 @@ function generateRecipe(event) {
     let prompt = `User instructions are: Generate an italian recipe which based on these ingredients:${ingredientsInput.value}`;
     let apiUrl =`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+    let recipeElement = document.querySelector("#recipe");
+    recipeElement.classList.remove("hidden");
+    recipeElement.innerHTML =`<div class="loader"></div>`;
     console.log("Generating recipe...");
     console.log(`Prompt: ${prompt}`);
     console.log(`Context: ${context}`);
