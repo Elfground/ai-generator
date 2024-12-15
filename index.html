@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
-    <title>AI Italian Recipe Generator</title>
+    <title>AI Nonna Italian Recipe Generator</title>
 </head>
 <body>
     <div class="container">
 <main>
-    <h1>Italian Recipe Generator</h1>
+    <h1>Nonna's Italian Recipes 🇮🇹</h1>
 
 <form id="recipe-generator-form">
-<input type="text" placeholder="Name your ingredients" class="ingredients" autofocus required autocomplete="off" />
+<input type="text" placeholder="Add your ingredients" class="ingredients" id="user-ingredients" autofocus required autocomplete="off" />
 <input type="submit" class="submit-button">
 </form>
 <div class="recipe" id="recipe">

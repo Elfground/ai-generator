@@ -47,14 +47,14 @@ a {
 }
 .ingredients {
     padding: 10px;
-    border: 1px solid #958472;
+    border: 1px solid #407551;
     width: 80%;
     font-size: 16px;
     border-radius: 20px;
     line-height: 1.5;
 }
 .submit-button {
-    background-color: #C5B6A3;
+    background-color: #407551;
     border: 1px solid #958472;
     border-radius: 20px;
     margin-left: 10px;
