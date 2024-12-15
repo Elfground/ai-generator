@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI Italian Recipe Generator</title>
 </head>
@@ -11,12 +12,11 @@
 <main>
     <h1>Italian Recipe Generator</h1>
 
-<form>
+<form id="recipe-generator-form">
 <input type="text" placeholder="Name your ingredients" class="ingredients" autofocus required autocomplete="off" />
 <input type="submit" class="submit-button">
 </form>
-<div class="recipe">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi dolores consequuntur incidunt, modi natus nobis repellat. Quas maxime eveniet quod dolorum ea neque nemo autem, laudantium voluptatum omnis quisquam!
+<div class="recipe" id="recipe">
 </div>
 </main>
 </div>
